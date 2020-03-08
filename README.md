@@ -66,7 +66,7 @@ CUDA_VISIBLE_DEVICES=$GPU_ID python train_baseline.py --dataset sim10k \
                     --lr_decay_gamma 0.1 --cuda
 ```
 
-To train the proposed model without ***graph-based aggregation***, simply run:
+To train the proposed model ***without graph-based aggregation***, simply run:
 ```
 CUDA_VISIBLE_DEVICES=$GPU_ID python train_GPA.py --dataset sim10k \
                     --tgt_dataset city --model_config adapt --mode adapt \
@@ -74,7 +74,7 @@ CUDA_VISIBLE_DEVICES=$GPU_ID python train_GPA.py --dataset sim10k \
                     --lr 0.001 --lr_decay_step 6 --lr_decay_gamma 0.1 \
                     --warm_up 200 --da_weight 1.0 --rpn_da_weight 1.0 --cuda 
 ```
-To train the proposed model with ***graph-based aggregation***, simply run:
+To train the proposed model ***with graph-based aggregation***, simply run:
 ```
 CUDA_VISIBLE_DEVICES=$GPU_ID python train_GPA.py --dataset sim10k \
                     --tgt_dataset city --model_config gcn_adapt \
