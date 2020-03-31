@@ -7,7 +7,7 @@
 ## Introduction
 
 This project is an implementation of ``Cross-domain Detection via Graph-induced Prototype Alignment'' in PyTorch, which is accepted by CVPR 2020. 
-We would like to appreciate for the excelent work of [jwyang/faster-rcnn.pytorch](https://github.com/jwyang/faster-rcnn.pytorch) which lays a solid foundation for our work.
+We would like to appreciate for the excellent work of [jwyang/faster-rcnn.pytorch](https://github.com/jwyang/faster-rcnn.pytorch) which lays a solid foundation for our work.
 
 More details of this work can be found in our paper: [[Paper (arxiv)]](https://arxiv.org/abs/2003.12849).
 
