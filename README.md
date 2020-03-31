@@ -9,7 +9,7 @@
 This project is an implementation of ``Cross-domain Detection via Graph-induced Prototype Alignment'' in PyTorch, which is accepted by CVPR 2020. 
 We would like to appreciate for the excelent work of [jwyang/faster-rcnn.pytorch](https://github.com/jwyang/faster-rcnn.pytorch) which lays a solid foundation for our work.
 
-More details of this work can be found in our paper: [[Paper (arxiv)]](https://arxiv.org/abs/1912.01805).
+More details of this work can be found in our paper: [[Paper (arxiv)]](https://arxiv.org/abs/2003.12849).
 
 ## Preparation
 
@@ -114,10 +114,10 @@ python iterative_test.py --dataset city --model_config gcn_adapt --net res50 \
 
 If this work helps your research, please cite the following paper (This will be updated when the CVPR paper is publicized).
 ```
-@article{xu2019adversarial,
-  title={Adversarial Domain Adaptation with Domain Mixup},
-  author={Xu, Minghao and Zhang, Jian and Ni, Bingbing and Li, Teng and Wang, Chengjie and Tian, Qi and Zhang, Wenjun},
-  journal={arXiv preprint arXiv:1912.01805},
-  year={2019}
+@article{xu2020cross-domain,
+  title={Cross-domain Detection via Graph-induced Prototype Alignment},
+  author={Xu, Minghao and Wang, Hang and Ni, Bingbing and Tian, Qi and Zhang, Wenjun},
+  journal={arXiv preprint arXiv:2003.12849},
+  year={2020}
 }
 ```
