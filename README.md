@@ -23,7 +23,7 @@ Then, create a folder:
 cd GPA-detection && mkdir data
 ```
 
-### prerequisites
+### Prerequisites
 
 * Python 2.7 or 3.6
 * Pytorch 0.4.1 
