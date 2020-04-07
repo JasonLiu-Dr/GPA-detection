@@ -29,6 +29,14 @@ cd GPA-detection && mkdir data
 * Pytorch 0.4.1 
 * CUDA 8.0 or higher
 
+### Dataset Preparation
+
+* [Cityscapes & Foggy Cityscapes](https://www.cityscapes-dataset.com/)
+   
+  p.s. Transform original segmentation annotations to detection formats using these [codes](https://jbox.sjtu.edu.cn/l/KnHCR2).
+* [SIM 10k](https://fcav.engin.umich.edu/projects/driving-in-the-matrix)
+* [KITTI](http://www.cvlibs.net/datasets/kitti/eval_object.php?obj_benchmark=2d)
+
 ### Pretrained Model
 
 In all experiments, we use a ResNet-50 model pretrained on ImageNet as the backbone. You can download this model from:
@@ -47,7 +55,7 @@ Install all the python dependencies using pip:
 pip install -r requirements.txt
 ```
 
-Compile the cuda depended modules, e.g. NPS, ROI Pooling, ROI Align and ROI Crop, using following simple commands:
+Compile the cuda depended modules, e.g. NMS, ROI Pooling, ROI Align and ROI Crop, using following simple commands:
 
 ```
 cd lib
