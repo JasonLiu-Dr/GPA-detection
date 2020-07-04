@@ -120,12 +120,13 @@ python iterative_test.py --dataset city --model_config gcn_adapt --net res50 \
 ## Citation
 
 
-If this work helps your research, please cite the following paper (This will be updated when the CVPR paper is publicized).
+If this work helps your research, please cite the following paper.
 ```
-@article{xu2020cross-domain,
+inproceedings{xu2020cross-domain,
+  author={Minghao Xu and Hang Wang and Bingbing Ni and Qi Tian and Wenjun Zhang},
   title={Cross-domain Detection via Graph-induced Prototype Alignment},
-  author={Xu, Minghao and Wang, Hang and Ni, Bingbing and Tian, Qi and Zhang, Wenjun},
-  journal={arXiv preprint arXiv:2003.12849},
+  booktitle={{IEEE} Conference on Computer Vision and Pattern Recognition},
+  pages={12355-12364},
   year={2020}
 }
 ```
