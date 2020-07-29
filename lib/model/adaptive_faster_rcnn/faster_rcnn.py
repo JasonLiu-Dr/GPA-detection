@@ -158,8 +158,8 @@ class _fasterRCNN(nn.Module):
 
         # get the adaptive feature for RPN
         if self.training:
-            rpn_adapt_feat = self.rpn_adapt_feat(pooled_feat_.view(pooled_feat.size(0), -1))
-            tgt_rpn_adapt_feat = self.rpn_adapt_feat(tgt_pooled_feat_.view(tgt_pooled_feat.size(0), -1))
+            rpn_adapt_feat = self.rpn_adapt_feat(pooled_feat.view(pooled_feat.size(0), -1))
+            tgt_rpn_adapt_feat = self.rpn_adapt_feat(tgt_pooled_feat.view(tgt_pooled_feat.size(0), -1))
 
         # feed pooled features to top model
         pooled_feat = self._head_to_tail(pooled_feat)
