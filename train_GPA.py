@@ -112,7 +112,7 @@ def parse_args():
                         action='store_true')
     parser.add_argument('--pos_r', dest='pos_ratio',
                         help='ration of positive example',
-                        default=0.5, type=float)
+                        default=0.25, type=float)
     parser.add_argument('--rpn_bs', dest='rpn_bs',
                         help='rpn batchsize',
                         default=128, type=int)
